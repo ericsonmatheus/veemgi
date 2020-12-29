@@ -5,29 +5,29 @@
     padding: 0;
 }
 
-/*----------------------------HEADER----------------------*/
 
-header {
-    background-color: blue;
-    background: #fff;
-    color: #555;
-    margin-top: 1rem;
-    height: 4.5rem;
-}
-
-header a {
+body a {
     color: #785410;
     text-decoration: none;
 }
 
-header a:hover {
+body a:hover {
     color: #47320a;
     text-decoration:underline;
 }
 
 
-header .logo img {
+body .logo img {
     height: 4rem;
+}
+
+/*----------------------------HEADER----------------------*/
+
+header {
+    background: #fff;
+    color: #555;
+    margin-top: 1rem;
+    height: 4.5rem;
 }
 
 @media(min-width:993px) {
@@ -235,3 +235,4 @@ header .formSearch button{
 } 
 
 /*-----------------------------CONTENT----------------------*/
+
